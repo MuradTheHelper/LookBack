@@ -162,6 +162,16 @@ body {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
+.hero .btn-secondary {
+    color: white;
+    border-color: rgba(255, 255, 255, 0.85);
+}
+
+.hero .btn-secondary:hover {
+    background: white;
+    color: #4f46e5;
+}
+
 .hero-buttons {
     display: flex;
     gap: 1rem;
@@ -816,6 +826,90 @@ body {
     
     .support-item h3 {
         color: #f9fafb;
+    }
+
+    .nav-logo h1 {
+        color: #f9fafb;
+    }
+
+    .bar {
+        background-color: #d1d5db;
+    }
+
+    .section-title {
+        background: linear-gradient(135deg, #f9fafb 0%, #c7d2fe 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+
+    .section-title::after {
+        background: linear-gradient(135deg, #a5b4fc 0%, #6b7280 100%);
+    }
+
+    .section-subtitle,
+    .feature-card p,
+    .screenshot-item p,
+    .support-item p,
+    .screenshot-img {
+        color: #9ca3af;
+    }
+
+    .download .section-subtitle {
+        color: white;
+    }
+
+    .image-suggestions h3 {
+        color: #f9fafb;
+    }
+
+    .image-suggestions li {
+        background: #374151;
+        color: #e5e7eb;
+    }
+
+    .image-suggestions li strong,
+    .support-link,
+    .legal-section a {
+        color: #a5b4fc;
+    }
+
+    .support-link:hover {
+        color: #c7d2fe;
+    }
+
+    .screenshot-img {
+        background: #374151;
+    }
+
+    .legal-page {
+        background: #111827;
+    }
+
+    .legal-header h1,
+    .legal-section h2,
+    .legal-footer p {
+        color: #f9fafb;
+    }
+
+    .legal-section h3 {
+        color: #e5e7eb;
+    }
+
+    .legal-section p,
+    .legal-section li {
+        color: #d1d5db;
+    }
+
+    .last-updated {
+        color: #9ca3af;
+    }
+
+    .contact-info {
+        background: #1f2937;
+    }
+
+    .legal-footer {
+        border-top-color: #374151;
     }
 }
 
